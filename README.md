@@ -2,49 +2,49 @@
   ### Unidad 02
   #### Los ejercicios del 1 al 10 son del P1
    
-    - *Ejercicio 1:* 
+  > Ejercicio 1: 
     
         - Crea un archivo php que imprima mediante echo o print la frase "Hello World".
 
-    - *Ejercicio 2:*
+  > Ejercicio 2:
 
         - Crea un archivo php que imprima mediante echo o print la frase "Hello World" donde la primera palabra (Hello) esté contenida en una variable.
     
-    - *Ejercicio 3:*
+  > Ejercicio 3:
 
         - Crea una pagina html donde se mostrará un titulo con la etiqueta html <h1> Este titulo sera una variable php.  
 
-    - *Ejercicio 4:* 
+  > Ejercicio 4: 
 
         - Hacer un programa en php que muestre el texto contenido en las variables llamadas nombre y edad.
         Si nombre es NULL monstrara "Hola desconocido".
         Si se declara un nombre X y edad es NULL mostrará "Hola $nombre. No se tu edad".
         Si se declara un nombre X y edad Y mostrará "Hola X, Tienes Y años.
         
-    - *Ejercicio 5:*
+  > Ejercicio 5:
     
         - Hacer un programa en php que calcule el mayor de dos números almacenados en dos variables usando el condicional if.
         
-    - *Ejercicio 6:*
+  > Ejercicio 6:
 
         - Crear un archivo php que, dados dos números almacenadosen dos variables, nos muestre por pantalla el mayor
         de ellos o la frase "Los números son iguales" si son iguales. Usar la estructura switch y el opreador nave espacial.
 
-    - *Ejercicio 7:*
+   > Ejercicio 7:
 
         - Hacer un programa que, indicada una nomina en una variable, 
         si es menor de 800€ le haga un incremento del 20%
         si esta entre 800€ y 1200€ la deje como esta, y si es mayor le quite un 15%.
         usar el condicional if.
 
-    - *Ejercicio 8:*
+  > Ejercicio 8:
 
         - Hacer un programa en php que defina una constante LIMITE
         genere un numero aleatorio entre 1 y el LIMITE
         muestre por pantalla indicando si es par o impar.
         Usar el operador ternario '?' y la funcion rand()ç
 
-    - *Ejercicio 9:*
+  > Ejercicio 9:
 
         - Crear una pagina que calcule el importe final de una factura
         Crear 2 variables que contendran el precio de un producto
@@ -57,7 +57,7 @@
         el importe del iva 
         el importe final de la factura.
 
-    - *Ejercicio 10:*
+  > Ejercicio 10:
 
         - Crear las variables código, nombre, apellidos, puesto, sueldo, edad, num hijos y sucursal e inicializarlas con
         los siguientes valores:
