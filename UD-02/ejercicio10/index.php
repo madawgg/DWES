@@ -76,49 +76,4 @@ $sueldoConRetencion -= retencion5($sueldoConRetencion, $num_hijos);
 echo 'Sueldo despues de retención 5 es de: ' . formatearNumero($sueldoConRetencion) . '<hr>';
 echo 'El sueldo final despues de las retenciones es de: ' . formatearNumero($sueldoConRetencion);
 
-
 ?> 
-
-
-<?php
-
-/*inicializo el sueldoConRetencion = a sueldo para tener siempre el sueldo original (bruto) intacto.
-$sueldoConRetencion = $sueldo;
-
-
-
-// Retención 1.- Si es Vendedor y el Sueldo mayor a 70000 aplicar una retención del 10% sobre el
-// sueldo y en caso contrario el 20%
-
-function retencion1($puesto, $sueldo, $sueldoConRetencion){
-
-    if($puesto === 'Vendedor' && $sueldo > 70000){
-        $sueldoConRetencion -= calcularRetencion($sueldo, 10);  
-    } else{
-        $sueldoConRetencion -= calcularRetencion($sueldo, 20);
-    }
-    
-    return $sueldoConRetencion;
-}
-
-// Retención 2.- Si tiene más de 50 años o más de 2 hijos aplicar una retención del 5% sobre el
-// sueldo y en caso contrario el 10%
-
-function retencion2($edad, $hijos, $sueldo, $sueldoConRetencion){
-
-    if($edad>50 || $hijos > 2){
-        $sueldoConRetencion -= calcularRetencion($sueldo, 5);
-    }else{
-        $sueldoConRetencion -= calcularRetencion($sueldo, 10);
-    }
-    return $sueldoConRetencion;
-
-}
-
-echo formatearNumero(retencion1($puesto,$sueldo, $sueldoConRetencion));
-echo formatearNumero(retencion2($edad, $num_hijos, $sueldo, $sueldoConRetencion));
-
-*/
-
-
-?>
