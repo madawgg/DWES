@@ -6,7 +6,8 @@ function tablaDeMultiplicar($numero){
 
     for ($i=$numero; $i <= $numero; $i++) { 
        
-        echo "Tabla del $i <hr>";
+        echo "Tabla del $i <br> ********* <br>";
+        
        
         for ($j=1; $j <= 10; $j++) { 
             $resultado = $i*$j;
@@ -18,6 +19,6 @@ function tablaDeMultiplicar($numero){
 
 }
 
-tablaDeMultiplicar(4);
+tablaDeMultiplicar(2);
 
 ?>
